@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personne</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue sur le site W3SCHOOL, les pros Javascript!!!!</h1>
+    <div>
+        <table align="center">
+            <tr>
+                <td>Nom:</td>
+                 <td><input type="text" id="anarana"></td>
+            </tr>
+
+            <tr>
+                <td>Prénoms:</td>
+                 <td><input id = "fanampiny" type="text" > </td>
+            </tr>
+            <tr>
+                <td>Date de naissance</td>
+                <td><input id = "daty" type="date" value= "2022-11-29" min="1950-01-01"  max="2022-12-31"></td>   
+            </tr>
+            <tr>
+                <td>Profession:</td>
+                <td><input id = "asa" type="text" > </td>
+            </tr>
+            
+        </table>
+
+        <p>Votre situation familiale</p>
+                <div>
+                    <input id = "marie" type="radio" name="personne" value="marié" checked>
+                    <label for="marie">marié</label> 
+                </div>
+                <div>
+                    <input id = "celibataire" type="radio" name="personne" value="celibataire" > 
+                    <label for="celibataire">celibataire</label>
+                </div>
+       
+        <p> Votre sexe</p>
+                <div>
+                    <input id = "feminin" type="radio" name="sex" value="féminin" checked> 
+                    <label for="feminin">féminin</label> 
+                </div>
+                <div>
+                    <input id = "masculin" type="radio" name="sex" value="masculin" > 
+                    <label for="masculin">masculin</label> 
+                </div>
+    
+        </div><br>
+        <div>
+            <table align="center" >
+                <tr>
+                    <th><button type="button"  onclick="getPersonne();">Envoyer</button></th>
+                </tr>
+                <tr>
+                    <th>Mot de passe oublié?</th>
+                </tr>
+            
+            </table>
+         </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
